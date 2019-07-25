@@ -22,6 +22,10 @@ body {
 }
 /*--------END GRID---------*/
 
+header h1 {
+	text-align: center;
+	font-family: Georgia, serif;
+}
 
 header p {
 	text-align: center;
@@ -145,5 +149,52 @@ nav ul li a {
 
 #volunteer p, #events p {
 	text-align: center;
+	margin-left: 2em;
+	margin-right: 2em;
 }
 /*--------End Events and Volunteer--------*/
+
+/* Donate Page Style */
+#donateDescription {	/*(header p in DonatePage.html)*/
+	font-size: 150%;
+	margin-left: 4em;
+	margin-right: 4em;
+}
+
+form fieldset ul li {
+	list-style-type: none;
+	
+	padding: 1em;
+}
+#mySSN, #myName {
+	padding-top: 2.5em;
+}
+#submitReset {
+	display: flex;
+	justify-content: center;
+	padding: 1em;
+}
+input.subRes {
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#donateMainContent {
+	display: flex;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#thumbsUpJesus {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	width: 30%;
+	height: 30%;
+}
+form {
+	margin-left: auto;
+	margin-right: auto;
+}

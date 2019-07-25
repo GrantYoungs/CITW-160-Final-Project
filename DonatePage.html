@@ -3,24 +3,66 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Donate: Church of Grant</title>
+	<link href="styles/churchOfGrant.css" rel="stylesheet">
 </head>
 
 <body>
 	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Church of Grant</a></li>
+				<li><a href="AboutPage.html">About Us</a></li>
+			</ul>
+		</nav>
+		
 		<h1>Donate</h1>
-		<p>Part of our beliefs is that since your money is a gift from the Almighty Grant himself to invest in your future and take care of your needs, donating a tithe of 21% of your income is expected as humbly recognizing Grant's superiority.</p>
+		<p id="donateDescription">Part of our beliefs is that since your money is a gift from the Almighty Grant himself to invest in your future and take care of your needs, donating a tithe of 21% of your income is expected as humbly recognizing Grant's superiority.</p>
 	</header>
 	
 	
-	<form>
-		<fieldset>
-			<ul>
-				<li><label><input type="radio" name="debit" id="debit">Debit</label></li>
-				<li><label><input type="radio" name="credit" id="credit">Credit</label></li>
-			</ul>
-		</fieldset>
-	</form>
+	<div id="donateMainContent">
+		<form>
+			<fieldset>
+				<ul>
+					<li><label><input type="radio" name="debit" id="debit">Debit</label></li>
+					<li><label><input type="radio" name="credit" id="credit">Credit</label></li>
+					<li><label for="formCardNumber">Card Number: </label><input type="text" name="cardNumber" id="formCardNumber"></li>
+					<li><label for="formSecCode">Security Code: </label><input type="text" name="secCode" id="formSecCode"></li>
+					<li><label for="formExpDate">Expiration Date: </label><input type="text" name="expDate" id="formExpDate"></li>
+					
+					<li id="myName"><label for="formname">Name: </label><input type="text" name="name" id="formname"></li>
+					<li><label for="formAddressCity">City: </label><input type="text" name="addressCity" id="formAddressCity"></li>
+					<li><label for="formAddressState">State: </label><input type="text" name="addressState" id="formAddressState"></li>
+					<li><label for="formAddressZip">Zip Code: </label><input type="text" name="addressZip" id="formAddressZip"></li>
+					<li><label for="formNumber">Phone Number: </label><input type="text" name="number" id="formNumber"></li>
+					<li><label for="formEmail">Email: </label><input type="text" name="email" id="formEmail"></li>
+					
+					<li id="mySSN"><label for="formSSN">Social Security Number (Don't worry, it's TOTALLY secure!): </label><input type="text" name="SSN" id="formSSN"></li>
+				</ul>
+			</fieldset>
+			
+			<div id="submitReset">
+					<input type="submit" class="subRes">
+					<input type="reset" class="subRes">
+			</div>
+		</form>
+		
+		
+		<img src="images/thumbsUpJesus.jpg" alt="thumbs up jesus" id="thumbsUpJesus">
+		
+		
+	</div>
 	
+	
+	<footer>
+		<nav>
+			<ul>
+				<li><a href="https://www.youtube.com/watch?v=w2Ov5jzm3j8" target="_blank">Facebook</a></li>
+				<li><a href="https://www.youtube.com/watch?v=aA7xDP9sQzk" target="_blank">Instagram</a></li>
+				<li><a href="https://www.youtube.com/watch?v=1PrWA4C8eLw" target="_blank">Twitter</a></li>
+			</ul>
+		</nav>
+	</footer>
 </body>
 
 </html>
