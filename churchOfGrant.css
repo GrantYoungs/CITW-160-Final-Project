@@ -29,9 +29,9 @@ header h1 {
 
 header p {
 	text-align: center;
-	border: 2px solid #404040;
+	border: 3px solid #404040;
 	background-color:#f5a031;
-	padding: 4px;
+	padding: 10px;
 	margin-top: 0px;
 }
 
@@ -43,6 +43,15 @@ main h1 {
 	border-bottom-width: 3px;
 	border-bottom-color: #f5a031;
 	padding-bottom: .3em;
+	margin-right: 7em;
+	margin-left: 7em;
+}
+
+main h2 {
+	text-align: center;
+	font-size: 1.8em;
+	color: #f5a031;
+	padding-bottom: 0;
 	margin-right: 7em;
 	margin-left: 7em;
 }
@@ -59,6 +68,13 @@ main p {
 	text-align: center;
 	margin-right: 6em;
 	margin-left: 6em;
+	font-size: 22px;
+	line-height: 2;
+}
+
+span {
+	color: #f5a031;
+	font-size: 26px;
 }
 
 
@@ -159,6 +175,8 @@ nav ul li a {
 	font-size: 150%;
 	margin-left: 4em;
 	margin-right: 4em;
+	background: none;
+	border-color: #f5a031;
 }
 
 form fieldset ul li {
@@ -197,4 +215,16 @@ input.subRes {
 form {
 	margin-left: auto;
 	margin-right: auto;
+}
+/*-----END Donate Page Styles------*/
+
+/* About Page Styles */
+.donateSection {
+	margin-top: 3em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+#beliefs p {
+	margin-top: 0;
 }
