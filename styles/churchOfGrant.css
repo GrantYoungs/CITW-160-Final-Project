@@ -1,0 +1,273 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+  color: #404040;
+  background-color: #ededed;
+}
+* {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: Georgia, serif;
+	font-size: 100%;
+}
+
+/* Grid Styles */
+#layout {
+	display: grid;
+	/*grid-template-rows: 1fr 3fr 2fr 1fr;
+	grid-template-columns: 1fr 3fr 1fr;
+	*/
+}
+/*--------END GRID---------*/
+
+header h1 {
+	text-align: center;
+	font-family: Georgia, serif;
+}
+
+header p {
+	text-align: center;
+	border: 3px solid #404040;
+	background-color:#f5a031;
+	padding: 10px;
+	margin-top: 0px;
+}
+
+main h1 {
+	text-align: center;
+	font-size: 2.5em;
+	color: #404040;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #f5a031;
+	padding-bottom: .3em;
+	margin-right: 7em;
+	margin-left: 7em;
+}
+
+main h2 {
+	text-align: center;
+	font-size: 1.8em;
+	color: #f5a031;
+	padding-bottom: 0;
+	margin-right: 7em;
+	margin-left: 7em;
+}
+
+main img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+	width: 40%;
+}
+
+main p {
+	text-align: center;
+	margin-right: 6em;
+	margin-left: 6em;
+	font-size: 22px;
+	line-height: 2;
+}
+
+span {
+	color: #f5a031;
+	font-size: 26px;
+}
+
+
+
+/* Church of Grant's Nav styles for header AND footer */
+nav {
+  font-family: verdana, sans-serif;
+  background-color: #404040;
+}
+
+nav ul li a:link, nav ul li a:visited {
+  color: #f5a031;
+  text-decoration: none;
+}
+
+nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
+  color: #fff;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+footer nav ul li {
+	font-size: .8em;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+}
+
+nav ul li a {
+  display: block;
+  border: 2px solid;
+  border-radius: .5em;
+  padding: .5em 1em;
+  margin: .5em;
+}
+/*---------END NAV STYLES--------------*/
+
+/* Events and Volunteer Styles */
+#articles ul {
+	margin: 0;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-top: 0;
+	padding-bottom: 1em;
+	display: flex;
+	justify-content: center;
+	background-color: #f5a031;
+	border: 2px solid #404040;
+}
+#articles ul li {
+	list-style-type: none;
+}
+
+#articles ul li a:link, #articles ul li a:visited {
+	text-decoration: none;
+	color: #404040
+}
+#articles ul li a:focus, #articles ul li a:hover, #articles ul li a:active {
+	color: #ededed;
+}
+#articles ul li a {
+	display: block;
+	justify-content: center;
+	border: 2px solid;
+	border-radius: .5em;
+	padding: .5em 1em;
+	margin-left: 10em;
+	margin-right: 10em;
+	background-color: #ededed;
+	text-align: center;
+}
+#articles ul li h2 {
+	display: flex;
+	justify-content: center;
+}
+#events {
+	border-right: 2px #404040 solid;
+}
+
+#volunteer p, #events p {
+	text-align: center;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+/*--------End Events and Volunteer--------*/
+
+/* Donate Page Style */
+#donateDescription {	/*(header p in DonatePage.html)*/
+	font-size: 150%;
+	margin-left: 4em;
+	margin-right: 4em;
+	background: none;
+	border-color: #f5a031;
+}
+
+form fieldset ul li {
+	list-style-type: none;
+	
+	padding: 1em;
+}
+#mySSN, #myName {
+	padding-top: 2.5em;
+}
+#submitReset {
+	display: flex;
+	justify-content: center;
+	padding: 1em;
+}
+input.subRes {
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#donateMainContent {
+	display: flex;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#thumbsUpJesus {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	width: 30%;
+	height: 30%;
+}
+form {
+	margin-left: auto;
+	margin-right: auto;
+}
+/*-----END Donate Page Styles------*/
+
+/* About Page Styles */
+.donateSection {
+	margin-top: 3em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+#beliefs p {
+	margin-top: 0;
+}
+/*-------END About Page Styles------*/
+
+/* Events Page Styles */
+#pageEvents, #pageVolunteer {
+	display: flex;
+	align-items: stretch;
+	flex-flow: row wrap;
+}
+
+section {
+  background: #F6F3ED;
+  margin: 10px;
+  padding: 20px;
+  border: 3px solid #f5a031;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+}
+
+section p {
+	text-align: left;
+	font-size: 1em;
+	margin: 0;
+}
+section h2 {
+	text-align: center;
+	margin: 0;
+	color: #404040;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding-bottom: .5em;
+	border-bottom-style: solid;
+	border-bottom-color: #f5a031;
+	border-bottom-width: 3px;
+}
+h3 {
+	color: #404040;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 0;
+}
